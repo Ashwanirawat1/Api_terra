@@ -1,0 +1,19 @@
+{
+    "name": "demo1_api",
+    "id": 2,
+    "category": {
+        "id": 2,
+        "name": "string"
+    },
+    "name1": "doggie",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 3,
+            "name": "string"
+        }
+    ],
+    "status": "available"
+}
