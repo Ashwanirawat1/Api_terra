@@ -1,6 +1,6 @@
 import requests
 
-token = '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'
+token = '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'
 
 url = 'https://api.github.com/user/repos'
 

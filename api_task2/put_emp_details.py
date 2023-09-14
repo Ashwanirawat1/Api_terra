@@ -4,7 +4,7 @@ import json
 
 # GitHub repository information
 github_username = "Ashwanirawat1"
-access_token = "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"
+access_token = "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"
 repo_name = "Api_terra"
 file_path = "api_task2/empljson.json"
 
@@ -31,7 +31,7 @@ if response.status_code == 200:
 
         # Modify the JSON data as needed
         # For example, let's add a new key-value pair to the JSON
-        json_data[4]["designation"] = "Project Manager"
+        json_data[4]["designation"] = "Manager"
 
         # Encode the updated JSON data to Base64
         updated_content = base64.b64encode(json.dumps(json_data).encode('utf-8')).decode('utf-8')
