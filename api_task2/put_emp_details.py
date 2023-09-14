@@ -4,7 +4,7 @@ import json
 
 # GitHub repository information
 github_username = "Ashwanirawat1"
-access_token = "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"
+access_token = "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"
 repo_name = "Api_terra"
 file_path = "api_task2/empljson.json"
 

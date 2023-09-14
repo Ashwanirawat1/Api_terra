@@ -1,6 +1,6 @@
 import requests
 
-access_token = "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"
+access_token = "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"
 
 # Name and description for the new repository
 repo_name = "demo2_re"

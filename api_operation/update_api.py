@@ -1,7 +1,7 @@
 import requests
 import json
 
-token = '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'
+token = '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'
 
 # Set the GitHub repository URL
 repo_owner = 'Ashwanirawat1'

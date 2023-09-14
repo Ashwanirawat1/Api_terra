@@ -11,7 +11,7 @@ file_path = 'api_task2/employeejso.json'
 url = f"https://api.github.com/repos/{repo_owner}/{repo_name}/contents/{file_path}"
 
 # GitHub personal access token
-github_token = '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'
+github_token = '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'
 
 # Content of the new file
 file_content = '''[
