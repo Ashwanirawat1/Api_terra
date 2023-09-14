@@ -63,5 +63,5 @@ def update_employee_attribute(username, access_token, repo_name, file_path, empl
     else:
         print(f"Failed to fetch file content. Status code: {response.status_code}")
 
-# Example usage to update the designation of the fifth employee
+# to update the designation of the fifth employee
 update_employee_attribute("Ashwanirawat1", "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", "Api_terra", "api_task2/empljson.json", 4, "designation", "Project Manager")

@@ -19,6 +19,6 @@ response = requests.delete(url, headers=headers)
 
 # Check the response status code
 if response.status_code == 204:
-    print("Repository deleted successfully.")
+    print("Repository deleted successfully")
 else:
     print("Failed to delete repository. Status code:", response.status_code)

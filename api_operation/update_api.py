@@ -47,4 +47,4 @@ response = requests.patch(url, headers=headers, data=json_data)
 if response.status_code == 200:
     print("Repository updated successfully.")
 else:
-    print("Failed to update repository. Status code:", response.status_code)
+    print("Failed to update repository. Status code :", response.status_code)

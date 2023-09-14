@@ -21,4 +21,4 @@ if response.status_code == 200:
     for name in repo_names:
         print(name)
 else:
-    print("Failed to retrieve repositories. Status code:", response.status_code)
+    print("Failed to retrieve repositories. Status code :", response.status_code)

@@ -28,6 +28,6 @@ response = requests.post(create_repo_url, json=data, headers=headers)
 
 # Check the response status code
 if response.status_code == 201:
-    print(f"Repository '{repo_name}' created successfully!")
+    print(f"Repository '{repo_name}' created successfully")
 else:
     print(f"Failed to create repository. Status code: {response.status_code}")
