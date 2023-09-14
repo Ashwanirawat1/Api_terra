@@ -1,7 +1,8 @@
 import requests
+import Token
 
-token = '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'
-
+# token = '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'
+github_token = Token.api_token.Api_token.git_token
 url = 'https://api.github.com/user/repos'
 
 # Define the headers with the token

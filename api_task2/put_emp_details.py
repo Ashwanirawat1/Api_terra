@@ -1,10 +1,12 @@
 import requests
 import base64
 import json
+import Token
 
 # GitHub repository information
 github_username = "Ashwanirawat1"
-access_token = "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"
+# access_token = "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"
+access_token = Token.api_token.Api_token.git_token
 repo_name = "Api_terra"
 file_path = "api_task2/empljson.json"
 

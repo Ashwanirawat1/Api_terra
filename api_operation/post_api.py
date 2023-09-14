@@ -1,5 +1,7 @@
 import requests
+import Token
 
+github_token = Token.api_token.Api_token.git_token
 access_token = "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"
 
 # Name and description for the new repository

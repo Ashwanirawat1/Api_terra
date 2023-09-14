@@ -54,5 +54,4 @@ def delete_employee(username, access_token, repo_name, file_path, employee_index
     else:
         print(f"Failed to fetch file content. Status code: {response.status_code}")
 
-# Example usage to delete the 10th employee
-delete_employee("Ashwanirawat1", "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", "Api_terra", "api_task2/employeejso.json", 9)
+delete_employee("Ashwanirawat1", "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", "Api_terra", "api_task2/employejson.json", 8)
