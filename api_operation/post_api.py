@@ -2,7 +2,7 @@ import requests
 import Token
 
 github_token = Token.api_token.Api_token.git_token
-access_token = "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"
+# github_token = "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"
 
 # Name and description for the new repository
 repo_name = "demo2_re"
@@ -21,7 +21,7 @@ data = {
 
 # Headers for the request, including authorization and API version
 headers = {
-    "Authorization": f"token {access_token}",
+    "Authorization": f"token {github_token}",
     "Accept": "application/vnd.github.v3+json",  # API version header
 }
 

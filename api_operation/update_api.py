@@ -2,7 +2,7 @@ import requests
 import json
 import Token
 
-# token = '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'
+# github_token = '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'
 github_token = Token.api_token.Api_token.git_token
 # Set the GitHub repository URL
 repo_owner = 'Ashwanirawat1'
@@ -37,7 +37,7 @@ json_data = json.dumps(new_data)
 
 # Define the headers with the token and content type
 headers = {
-    'Authorization': f'token {token}',
+    'Authorization': f'token {github_token}',
     'Content-Type': 'application/json',
 }
 

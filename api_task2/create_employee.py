@@ -6,7 +6,7 @@ import json
 # GitHub repository information
 repo_owner = 'Ashwanirawat1'
 repo_name = 'Api_terra'
-file_path = 'api_task2/ashjson.json'
+file_path = 'api_task2/empjson.json'
 
 # Set the GitHub API endpoint URL for the specific file in the repository
 url = f"https://api.github.com/repos/{repo_owner}/{repo_name}/contents/{file_path}"

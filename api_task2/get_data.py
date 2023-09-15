@@ -1,18 +1,18 @@
 import base64
-# import Token
+import Token
 import requests
 import json
 
 # GitHub repository information
 repo_owner = 'Ashwanirawat1'
 repo_name = 'Api_terra'
-file_path = 'api_task2/ashjson.json'
+file_path = 'api_task2/empjson.json'
 
 # Set the GitHub API endpoint URL for the specific file in the repository
 api_url = f"https://api.github.com/repos/{repo_owner}/{repo_name}/contents/{file_path}"
 
-github_token = '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'
-# github_token = Token.api_token.Api_token.git_token
+# github_token = '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'
+github_token = Token.api_token.Api_token.git_token
 # Headers for the request
 headers = {
     'Authorization': f'Bearer {github_token}',

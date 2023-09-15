@@ -1,13 +1,13 @@
 import requests
 import Token
 
-# token = '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'
+# github_token = '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'
 github_token = Token.api_token.Api_token.git_token
 url = 'https://api.github.com/user/repos'
 
 # Define the headers with the token
 headers = {
-    'Authorization': f'token {token}',
+    'Authorization': f'token {github_token}',
 }
 
 # Send a GET request to retrieve the list of repositories
